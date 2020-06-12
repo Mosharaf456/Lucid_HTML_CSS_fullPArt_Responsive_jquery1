@@ -1,0 +1,1429 @@
+@media (max-width: 1199px){
+  /*starting 1st Header part */
+  .intro-content2 h1{
+   font-size: 20px;
+ }
+ .intro-content4 button {
+   background-color: #3d3d42;
+   border: 1px solid #999999;
+   padding: 6px;
+}
+.intro-content3 p {
+ font-size: 15px;
+}
+ 
+/*Ending 1st Header part */
+
+/*  6th starting what-see */
+
+.what-see-content h4{
+
+font-size: 20px;
+}
+/*  6th ending what-see  */
+
+}
+
+@media (max-width:991px){
+   /*starting 1st Header part */
+   .logo img{
+     min-width: 2%;
+   }
+   .header_part{
+     
+ min-height: 68vh;
+   }
+   .logo_content{
+     font-size: 6px;
+     margin-right: 75%;
+   }
+   .hover-ani{
+   position: relative;
+   }
+   .hover-ani::before{
+   left: 0%;
+   }
+   .hover-ani:hover::before{
+   width: 8%;
+   }
+   .hover-ani::after{
+   left: 10%;
+   }
+   .hover-ani:hover::after{
+   width: 8%;
+   }
+   
+   .intro-content1 {
+     font-size: 13px;
+   }
+   .intro-content2 h1{
+     font-size: 15px;
+   }
+   .intro-content3{
+   
+font-size: 14px;
+   }
+   .intro-content4 .btn-cus{
+   font-size: 9px;
+   padding: 8px;
+   }
+   .btn-cus {
+     margin-right: 5px;
+     margin-bottom: 10px;
+     font-size: 9px;
+   }
+   
+   .intro-image{
+   margin-top: 25px;
+   }
+   .intro-image img{
+   min-height: 69vh;
+   max-width: 100%;
+   }
+   /*Ending 1st Header part */
+  /*2nd Start product-overview */
+  .product-overview{
+
+  }
+  
+  .overview-content1 p{
+  
+font-size: 11px;
+  }
+  
+  
+  .heading  h4{
+    margin-bottom: 14vh;
+    font-size: 20px;
+  }
+  
+  .heading h4:hover::after{
+    width: 3%;
+  }
+  .feature-icon{
+  
+width: 39%;
+  
+height: 21%;
+  
+font-size: 11px;
+  }
+  .feature-icon i{
+   
+  margin-bottom: 35px;
+  }
+  .feature-icon-content h5{
+  
+font-size: 15px;
+  }
+  .feature-icon-content p{
+      
+font-size: 14px;
+  }
+  /*  Ending 2nd product-overview  */
+  /*  3rd starting beautiful-device  */
+.beautiful-device{
+
+}
+.device-image{
+
+}
+.device-image img{
+
+}
+.device-content1{
+}
+.device-content1 p{
+
+font-size: 10px;
+}
+.content h3{
+
+margin-bottom: 5vh;
+
+font-size: 18px;
+}
+.cu-bd{
+  
+}
+.cu-bd p {
+  font-size: 12px;
+}
+
+.bdi h6 {
+  font-size: 9px;
+}
+
+
+/* 3rd ending beautiful-device  */
+
+/*  4th starting easy-customize  */
+
+.easy-customize{
+
+  padding: 20vh 0;
+}
+/*  4th ending easy-customize  */
+
+/*  6th starting what-see */
+.what-see{
+
+}
+.what-see-content h4{
+
+font-size: 15px;
+}
+.what-see-content span{
+
+}
+
+.what-see-bttn{
+
+/* margin: 0; */
+
+/* display: flex; */
+
+/* margin-top: -4%; */
+
+display: block;
+}
+.what-see-bttn a{
+
+font-size: 12px;
+
+margin-top: 5px;
+}
+.what-see-bttn button{
+
+font-size: 12px;
+
+margin-top: 6px;
+}
+/*  6th ending what-see  */
+
+/*7th starting pricing-card */
+.pricing-card{
+ 
+}
+.pricing-content{
+
+}
+
+.pricing-content h2 {
+
+font-size: 18px;
+}
+
+.pricing-content .btn {
+  padding: 6px 25px;
+  font-size: 8px;
+}
+
+.value {
+
+}
+
+.value h1 {
+
+font-size: 34px;
+}
+
+.value h6 {
+
+font-size: 15px;
+}
+.pricing-content:hover {
+
+}
+
+.pricing-content:hover h2 {
+}
+
+.pricing-content:hover .value {
+
+}
+
+.pricing-content:hover .value h1 {
+
+}
+
+.pricing-content:hover .value h6 {
+
+}
+
+.pricing-content:hover .btn {
+
+}
+.pricing-card :hover span{
+
+}
+sup {
+ 
+font-size: 16px;
+}
+.pricing-content p{
+  
+font-size: 13px;
+}
+.cus-pc{
+  
+margin-bottom: 30px;
+}
+/*7th ending pricing-card  */
+/* .......................... *********************************************************  */
+/* 8th starting contact-us */
+
+.contact-us{
+}
+.contact-content p{
+
+  font-size: 8px;
+
+}
+.contact-icon i{
+
+  font-size: 18px;
+}
+/*  8th Ending contact-us */
+/* form start */
+.wrapper{
+  transform: translate(-0%,56%);
+}
+.contact-form{
+  max-width: 371px;
+  padding: 13px;
+  border-radius: 3px;
+}
+.input-fields{
+
+margin-right: 4%;
+
+}
+.input-fields , 
+.msg{
+  width: 54%;
+}
+.input-fields .input,
+.msg textarea{
+  margin: 5px 0;
+  padding: 0px;
+  width: 95%;
+  font-size: 12px;
+  padding: 5px;
+}
+.msg textarea{
+  height: 118px;
+  font-size: 11px;
+  padding: 6px;
+}
+.btn{
+ padding: 0px 6px;
+ /* cursor: pointer; */
+ font-size: 10px;
+}
+.cus-btn{
+  margin-left: 66px;
+  font-size: 30px;
+  padding: 5px;
+  padding-top: 0;
+}
+.cus-btn .btn:hover{
+color: #fff!important;
+border: 1px solid #3d3d42;
+}
+/* end form */
+
+/* <9th starting google-map  */
+    /* nothing */
+/* 9th ending google-map  */
+
+/* .................................................................................... */
+/* 10TH Starting Footer part */
+.footer_part {
+  padding-top: 4px;
+} 
+.navbar{
+  
+}
+.footer_part ul li i{
+  
+font-size: 17px;
+}
+
+.footer_bottom p{
+  margin-bottom: 0;
+  font-size: 12px;
+}
+/*10TH Ending footer part */
+ 
+
+}
+@media(max-width:767px){
+ /*starting 1st Header part */
+ .logo img{
+   min-width: 2%;
+ }
+ .header_part{
+   
+min-height: 68vh;
+ }
+ .logo_content{
+   font-size: 6px;
+   margin-right: 65%;
+ }
+ .hover-ani{
+ position: relative;
+ }
+ .hover-ani::before{
+ left: 0%;
+ }
+ .hover-ani:hover::before{
+ width: 8%;
+ }
+ .hover-ani::after{
+ left: 10%;
+ }
+ .hover-ani:hover::after{
+ width: 8%;
+ }
+ 
+ .intro-content1 {
+   font-size: 10px;
+ }
+ .intro-content2 h1{
+   font-size: 16px;
+ }
+ .intro-content3{
+ 
+ font-size: 11px;
+ }
+ .intro-content4 .btn-cus{
+ font-size: 8px;
+ }
+ .btn-cus {
+   margin-right: 5px;
+   margin-bottom: 10px;
+   font-size: 9px;
+ }
+ 
+ .intro-image{
+ margin-top: 25px;
+ }
+ .intro-image img{
+ min-height: 80vh;
+ max-width: 114%;
+ }
+ /*Ending 1st Header part */
+
+  /*2nd Start product-overview */
+  .product-overview{
+
+  }
+  
+  .overview-content1 p{
+  
+font-size: 11px;
+  }
+  
+  
+  .heading  h4{
+    margin-bottom: 14vh;
+    font-size: 24px;
+    /* color: #fff; */
+  }
+  
+  .heading h4:hover::after{
+    width: 3%;
+  }
+  .feature-icon{
+  
+width: 36%;
+  
+height: 30%;
+  
+font-size: 12px;
+  }
+  .feature-icon i{
+   
+  margin-bottom: 35px;
+  }
+  .feature-icon-content h5{
+  
+font-size: 15px;
+  }
+  .feature-icon-content p{
+      
+font-size: 14px;
+  }
+  /*  Ending 2nd product-overview  */
+
+  /*  5th starting pricing-plan carousul  */
+
+.pricing-plan{
+
+}
+.pricing-plan-content P{
+
+font-size: 9px;
+}
+.hg{
+
+}
+.pricing-plan-content{
+
+}
+.hg .heading h4{
+
+}
+.hg  h4{
+
+font-size: 13px;
+}
+
+.carousel-content p{
+
+font-size: 14px;
+}
+.cr-img img{height: 38%;display: block;}
+.logo-content1{
+}
+.logo-content1 p{
+
+font-size: 10px;
+}
+.logo-content1 h6{
+
+  font-size: 10px;
+  }
+/*  5th ending pricing-plan carousul  */
+
+/*  6th starting what-see */
+.what-see{
+
+}
+.what-see-content h4{
+
+font-size: 12px;
+}
+.what-see-content span{
+
+}
+
+.what-see-bttn{
+
+/* margin: 0; */
+
+display: flex;
+
+margin-top: 4%;
+}
+.what-see-bttn a{
+
+font-size: 10px;
+
+margin-top: 24px;
+}
+.what-see-bttn button{
+
+font-size: 6px;
+
+margin-top: 25px;
+}
+/*  6th ending what-see  */
+/*7th starting pricing-card */
+.pricing-card{
+ 
+}
+.pricing-content{
+
+}
+
+.pricing-content h2 {
+
+font-size: 18px;
+}
+
+.pricing-content .btn {
+  padding: 9px 30px;
+}
+
+.value {
+
+}
+
+.value h1 {
+
+font-size: 34px;
+}
+
+.value h6 {
+
+font-size: 15px;
+}
+.pricing-content:hover {
+
+}
+
+.pricing-content:hover h2 {
+}
+
+.pricing-content:hover .value {
+
+}
+
+.pricing-content:hover .value h1 {
+
+}
+
+.pricing-content:hover .value h6 {
+
+}
+
+.pricing-content:hover .btn {
+
+}
+.pricing-card :hover span{
+
+}
+sup {
+ 
+font-size: 16px;
+}
+.pricing-content p{
+  
+font-size: 13px;
+}
+.cus-pc{
+  
+margin-bottom: 30px;
+}
+/*7th ending pricing-card  */
+
+/* 8th starting contact-us */
+
+.contact-us{
+}
+.contact-content p{
+
+  font-size: 8px;
+
+}
+.contact-icon i{
+
+  font-size: 18px;
+}
+/*  8th Ending contact-us */
+/* form start */
+.wrapper{
+  transform: translate(-0%,62%);
+}
+.contact-form{
+  max-width: 371px;
+  padding: 8px;
+  border-radius: 3px;
+
+}
+.input-fields{
+
+margin-right: 4%;
+
+}
+.input-fields , 
+.msg{
+  width: 48%;
+}
+.input-fields .input,
+.msg textarea{
+  margin: 5px 0;
+  padding: 0px;
+  width: 90%;
+  font-size: 11px;
+  padding: 4px;
+}
+.msg textarea{
+  height: 99px;
+ font-size: 9px;
+ padding: 3px;
+}
+.btn{
+ padding: 0px 6px;
+ /* cursor: pointer; */
+ font-size: 10px;
+}
+.cus-btn{
+  margin-left: 41px;
+  font-size: 26px;
+}
+.cus-btn .btn:hover{
+color: #fff!important;
+border: 1px solid #3d3d42;
+}
+/* end form */
+
+/* <9th starting google-map  */
+    /* nothing */
+/* 9th ending google-map  */
+
+
+/* 10TH Starting Footer part */
+.footer_part {
+  padding-top: 0px;
+} 
+.navbar{
+  
+}
+.footer_part ul li i{
+  
+font-size: 15px;
+}
+
+.footer_bottom p{
+  margin-bottom: 0;
+  font-size: 10px;
+}
+/*10TH Ending footer part */
+ 
+ }
+ 
+ @media (max-width:575px){
+ /*starting 1st Header part */
+ .logo img{
+   min-width: 2%;
+ }
+ .header_part{
+   
+ min-height: 88vh;
+ }
+ .logo_content{font-size: 6px;margin-right: 62%;}
+ .hover-ani{
+ position: relative;
+ }
+ .hover-ani::before{
+ left: 0%;
+ }
+ .hover-ani:hover::before{
+ width: 8%;
+ }
+ .hover-ani::after{
+ left: 10%;
+ }
+ .hover-ani:hover::after{
+ width: 8%;
+ }
+ 
+ .intro-content1 {
+ text-align: center;
+ font-size: 9px;
+ }
+ .intro-content2 h1{
+   font-size: 16px;
+   text-align: center;
+ }
+ .intro-content3{
+ 
+font-size: 12px;
+ 
+text-align: center;
+ }
+ .intro-content4 .btn-cus{
+   margin-left: 80px;
+   text-align: center;
+ }
+ .btn-cus {
+ margin-right: 6px;
+ margin-bottom: 10px;
+ font-size: 10px;
+ 
+ }
+ 
+ .intro-image{
+ margin-top: 25px;
+ }
+ .intro-image img{
+ 
+max-width: 90%;
+ 
+min-height: 83vh;
+ }
+ /*Ending 1st Header part */
+ 
+ /*2nd Start product-overview */
+.product-overview{
+
+}
+
+.overview-content1 p{
+
+  font-size: 9px;
+}
+
+
+.heading  h4{
+  margin-bottom: 14vh;
+  font-size: 20px;
+}
+
+.heading h4:hover::after{
+  width: 3%;
+}
+.feature-icon{
+
+width: 41%;
+
+height: 31%;
+
+font-size: 12px;
+}
+.feature-icon i{
+}
+.feature-icon-content h5{
+
+  font-size: 14px;
+}
+.feature-icon-content p{
+    
+font-size: 12px;
+}
+/*  Ending 2nd product-overview  */
+
+/*  3rd starting beautiful-device  */
+.beautiful-device{
+
+}
+.device-image{
+
+}
+.device-image img{
+
+}
+.device-content1{
+}
+.device-content1 p{
+
+font-size: 10px;
+}
+.content h3{
+
+margin-bottom: 5vh;
+
+font-size: 18px;
+}
+
+.cu-bd p {
+  font-size: 12px;
+}
+.bdi h6 {
+  font-size: 16px;
+}
+
+
+/* 3rd ending beautiful-device  */
+
+/*  4th starting easy-customize  */
+
+.easy-customize{
+
+  padding: 20vh 0;
+}
+/*  4th ending easy-customize  */
+/*  5th starting pricing-plan carousul  */
+
+.pricing-plan{
+
+}
+.pricing-plan-content P{
+
+font-size: 7px;
+}
+.hg{
+
+}
+.pricing-plan-content{
+
+}
+.hg .heading h4{
+
+}
+.hg  h4{
+
+font-size: 13px;
+}
+
+.carousel-content p{
+
+font-size: 12px;
+}
+.cr-img img{height: 38%;display: block;}
+.logo-content1{
+}
+.logo-content1 p{
+
+font-size: 10px;
+}
+.logo-content1 h6{
+
+  font-size: 10px;
+  }
+/*  5th ending pricing-plan carousul  */
+
+/*  6th starting what-see */
+.what-see{
+
+}
+.what-see-content h4{
+
+font-size: 10px;
+}
+.what-see-content span{
+
+}
+
+.what-see-bttn{
+display: block;
+}
+.what-see-bttn a{
+
+font-size: 9px;
+
+margin-top: 24px;
+
+display: inline-block;
+}
+.what-see-bttn button{
+
+font-size: 9px;
+
+margin-top: 22px;
+}
+/*  6th ending what-see  */
+
+/*7th starting pricing-card */
+.pricing-card{
+ 
+}
+.pricing-content{
+
+}
+
+.pricing-content h2 {
+
+font-size: 14px;
+}
+
+.pricing-content .btn {
+  padding: 6px 38px;
+}
+
+.value {
+
+}
+
+.value h1 {
+
+font-size: 30px;
+}
+
+.value h6 {
+
+font-size: 11px;
+}
+.pricing-content:hover {
+
+}
+
+.pricing-content:hover h2 {
+
+}
+
+.pricing-content:hover .value {
+
+}
+
+.pricing-content:hover .value h1 {
+
+}
+
+.pricing-content:hover .value h6 {
+
+}
+
+.pricing-content:hover .btn {
+
+}
+.pricing-card :hover span{
+
+}
+sup {
+ 
+font-size: 10px;
+}
+.pricing-content p{
+  
+font-size: 12px;
+}
+.cus-pc{
+  
+margin-bottom: 30px;
+}
+/*7th ending pricing-card  */
+
+/* 8th starting contact-us */
+
+.contact-us{
+}
+.contact-content p{
+
+  font-size: 8px;
+
+}
+.contact-icon i{
+
+  font-size: 18px;
+}
+/*  8th Ending contact-us */
+/* form start */
+.wrapper{
+  transform: translate(-0%,46%);
+}
+.contact-form{
+  max-width: 371px;
+  padding: 8px;
+  border-radius: 3px;
+
+}
+.input-fields{
+
+margin-right: 4%;
+
+}
+.input-fields , 
+.msg{
+  width: 48%;
+}
+.input-fields .input,
+.msg textarea{
+  margin: 5px 0;
+  padding: 0px;
+  width: 90%;
+  font-size: 11px;
+  padding: 4px;
+}
+.msg textarea{
+  height: 99px;
+ font-size: 9px;
+ padding: 3px;
+}
+.btn{
+ padding: 0px 6px;
+ cursor: pointer;
+font-size: 8px;
+}
+.cus-btn{
+  margin-left: 41px;
+}
+.cus-btn .btn:hover{
+color: #fff!important;
+border: 1px solid #3d3d42;
+}
+/* end form */
+
+/* <9th starting google-map  */
+    /* nothing */
+/* 9th ending google-map  */
+
+/* 10TH Starting Footer part */
+.footer_part {
+  padding-top: 0px;
+} 
+.navbar{
+  
+}
+.footer_part ul li i{
+  
+font-size: 13px;
+}
+
+.footer_bottom p{
+  margin-bottom: 0;
+  font-size: 8px;
+}
+/*10TH Ending footer part */
+
+}
+
+@media (max-width:320px){
+
+/*starting 1st Header part */
+.logo img{
+  min-width: 2%;
+}
+.header_part{
+   
+ min-height: 88vh;
+}
+.logo_content{
+ font-size: 6px;
+ margin-right: 40%;
+}
+.hover-ani{
+ position: relative;
+}
+.hover-ani::before{
+ left: 0%;
+}
+.hover-ani:hover::before{
+ width: 8%;
+}
+.hover-ani::after{
+ left: 10%;
+}
+.hover-ani:hover::after{
+ width: 8%;
+}
+
+.intro-content1 {
+ text-align: center;
+ font-size: 9px;
+}
+.intro-content2 h1{
+ font-size: 16px;
+ text-align: center;
+}
+.intro-content3{
+font-size: 12px;
+text-align: center;
+}
+.btn-cus {
+ margin-right: 6px;
+ margin-bottom: 10px;
+ font-size: 10px;
+}
+
+.intro-image{
+ margin-top: 25px;
+}
+.intro-image img{
+
+max-width: 98%;
+}
+/*Ending 1st Header part */
+
+ /*2nd Start product-overview */
+ .product-overview{
+
+}
+
+.overview-content1 p{
+
+  font-size: 9px;
+}
+
+
+.heading  h4{
+  /* margin-bottom: 14vh; */
+  font-size: 15px;
+}
+
+.heading h4:hover::after{
+  width: 3%;
+}
+.feature-icon{
+
+width: 41%;
+
+height: 18%;
+
+font-size: 10px;
+}
+.feature-icon i{
+ 
+margin-bottom: 35px;
+ 
+font-size: 9px;
+}
+.feature-icon-content h5{
+
+  font-size: 14px;
+}
+.feature-icon-content p{
+    
+font-size: 8px;
+}
+/* 2nd  Ending product-overview  */
+
+/*  3rd starting beautiful-device  */
+.beautiful-device{
+
+}
+.device-image{
+
+}
+.device-image img{
+
+}
+.device-content1{
+
+}
+.device-content1 p{
+
+font-size: 10px;
+}
+.content h3{
+
+margin-bottom: 5vh;
+
+font-size: 16px;
+}
+
+.cu-bd p {
+  font-size: 12px;
+}
+.bdi h6 {
+  font-size: 12px;
+}
+
+
+/* 3rd ending beautiful-device  */
+
+/*  4th starting easy-customize  */
+
+.easy-customize{
+
+  padding: 20vh 0;
+}
+/*  4th ending easy-customize  */
+
+/*  5th starting pricing-plan carousul  */
+
+.pricing-plan{
+
+}
+.pricing-plan-content P{
+
+font-size: 7px;
+}
+.hg{
+
+}
+.pricing-plan-content{
+
+}
+.hg .heading h4{
+
+}
+.hg  h4{
+
+font-size: 13px;
+}
+
+.carousel-content p{
+
+font-size: 10px;
+}
+.cr-img img{
+}
+.logo-content1{
+}
+.logo-content1 p{
+
+font-size: 10px;
+}
+.logo-content1 h6{
+
+  font-size: 10px;
+  }
+/*  5th ending pricing-plan carousul  */
+
+/*  6th starting what-see */
+.what-see{
+
+}
+.what-see-content h4{
+
+font-size: 9px;
+}
+.what-see-content span{
+
+}
+
+.what-see-bttn{
+
+margin: 0;
+
+display: block;
+}
+.what-see-bttn a{
+
+margin-top: 26px;
+
+font-size: 8px;
+}
+.what-see-bttn button{
+
+font-size: -1px;
+
+margin: 0;
+
+font-size: 7px;
+}
+/*  6th ending what-see  */
+
+/*7th starting pricing-card */
+.pricing-card{
+ 
+}
+.pricing-content{
+
+}
+
+.pricing-content h2 {
+
+font-size: 14px;
+}
+
+.pricing-content .btn {
+  padding: 3px 12px;
+}
+
+.value {
+
+}
+
+.value h1 {
+
+font-size: 30px;
+}
+
+.value h6 {
+
+font-size: 11px;
+}
+.pricing-content:hover {
+
+}
+
+.pricing-content:hover h2 {
+
+}
+
+.pricing-content:hover .value {
+
+}
+
+.pricing-content:hover .value h1 {
+
+}
+
+.pricing-content:hover .value h6 {
+
+}
+
+.pricing-content:hover .btn {
+
+}
+.pricing-card :hover span{
+
+}
+sup {
+ 
+font-size: 10px;
+}
+.pricing-content p{
+  
+font-size: 10px;
+}
+.cus-pc{
+
+}
+/*7th ending pricing-card  */
+
+/* 8th starting contact-us */
+
+.contact-us{
+}
+.contact-content p{
+
+  font-size: 8px;
+
+}
+.contact-icon i{
+
+  font-size: 18px;
+}
+/*  8th Ending contact-us */
+
+/* form start */
+.wrapper{
+
+transform: translate(-0%,-1%);
+}
+.contact-form{
+  max-width: 371px;
+  padding: 8px;
+  border-radius: 3px;
+
+}
+.input-fields{
+
+margin-right: 4%;
+
+}
+.input-fields , 
+.msg{
+  width: 48%;
+}
+.input-fields .input,
+.msg textarea{
+  margin: 5px 0;
+  padding: 0px;
+  width: 90%;
+  font-size: 8px;
+  padding: 4px;
+}
+.msg textarea{
+  height: 86px;
+  font-size: 7px;
+  padding: 3px;
+}
+.btn{
+ padding: 3px 8px;
+ cursor: pointer;
+ font-size: 6px;
+}
+.cus-btn{
+  margin-left: 0;
+}
+.cus-btn .btn:hover{
+color: #fff!important;
+border: 1px solid #3d3d42;
+}
+/* end form */
+
+/* <9th starting google-map  */
+    /* nothing */
+/* 9th ending google-map  */
+
+/* 10TH Starting Footer part */
+.footer_part {
+  padding-top: 0px;
+} 
+.navbar{
+  
+}
+.footer_part ul li i{
+  
+font-size: 10px;
+}
+
+.footer_bottom p{
+  margin-bottom: 0;
+  font-size: 6px;
+
+}
+/*10TH Ending footer part */
+
+
+}
+
+
+

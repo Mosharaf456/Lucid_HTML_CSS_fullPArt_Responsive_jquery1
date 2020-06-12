@@ -1,0 +1,543 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+*{
+  font-family: Myriad Pro;
+  font-weight: 500;
+}
+p{
+  color:#999999 ;
+  font-family: Myriad Pro;
+  font-weight: 500;
+}
+/*starting 1st Header part */
+.logo img{
+
+}
+.header_part{
+  background-image: url(../images/lucid_Background.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 88vh;
+}
+.navbar {
+  padding: 0rem;
+}
+.logo_content{
+  font-size: 7px;
+  margin-top: 20px;
+  font-family: Myriad Pro;
+  font-weight: 500;
+  color: #999999;
+  
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 16px;
+  font-family: Myriad Pro;
+  font-weight: 500;
+  color: #999999;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #fff;
+}
+
+.hover-ani{
+  position: relative;
+  font-family: Myriad Pro;
+  font-weight: 500;
+  color: #999999;
+}
+.hover-ani::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 13%;
+  width: 0;
+  height: 2px;
+  background-color:#008ed6;
+  transition: .4s all ease-in-out;
+  
+}
+.hover-ani:hover::before{
+  color: #fff!important;
+  width: 35%;
+  
+}
+.hover-ani::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 52%;
+  width: 0;
+  height: 2px;
+  background-color:#008ed6;
+  transition: .4s all ease-in-out;
+  
+}
+.hover-ani:hover::after{
+  color: #fff!important;
+  width: 35%;
+}
+.intro-content1{
+  color:rgb(72, 107, 141);
+  margin-top: 15vh;
+  font-family: Myriad Pro;
+  font-weight: 500;
+}
+.intro-content2{
+  color: #fff;
+  font-family: Myriad Pro;
+  font-weight: 500;
+}
+.intro-content3{
+  font-family: Myriad Pro;
+  font-weight: 500;
+  color: #999999;
+}
+.btn-cus{
+  border: 1px solid #212228!important;
+  border-radius: 0rem;
+  margin-right: 10px;
+}
+.btn-cus:hover{
+  background-color: #008ed6;
+
+}
+.intro-image{
+  margin-top: 25px;
+}
+.intro-image img{
+
+}
+.intro-content4 button{
+  background-color: #3d3d42;
+  border: 1px solid #999999;
+}
+.intro-content4 button:hover{
+  background-color: #008ed6;
+}
+.intro-content2 h1{
+  
+}
+/*Ending 1st Header part */
+
+/*2nd Start product-overview */
+.product-overview{
+  margin: 20vh 0;
+}
+.overview-content1{
+  color: #008ed6;
+  
+}
+.overview-content1 p{
+  color: #008ed6;
+  font-size: 10px;
+}
+
+
+.heading  h4{
+  position: relative;
+  margin-bottom: 15vh;
+  font-size: 30px;
+
+}
+.heading  h4::before{
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 8%;
+  bottom: -14px;
+  left: 46%;
+  background-color:#008ed6;
+  transition: .6s ease-in-out;
+}
+.heading  h4:hover::before{
+  width: 3%;
+
+}
+.heading  h4::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 8%;
+  bottom: -14px;
+  left: 50%;
+  background-color: #008ed6;
+  transition: .6s ease-in-out;
+}
+.heading h4:hover::after{
+  width: 3%;
+}
+.feature-icon{
+  display: inline-block;
+  border:1px solid #00000033;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+}
+.feature-icon i{
+  margin-top: 20%;
+  color: #008ed6;
+}
+.feature-icon-content h5{
+  margin-top: 20px;
+
+}
+.feature-icon-content p{
+    
+}
+/*  Ending 2nd product-overview  */
+
+/*  3rd starting beautiful-device  */
+.beautiful-device{
+  margin: 20vh 0;
+}
+.device-image{
+
+}
+.device-image img{
+
+}
+.device-content1{
+
+}
+.device-content1 p{
+
+  margin-top: 20px;
+  color: #008ed6;
+}
+.content h3{
+  position: relative;
+  margin-bottom: 7vh;
+
+}
+.content h3::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 8%;
+  bottom: -14px;
+  left: 0%;
+  background-color:#008ed6;
+  transition: .6s ease-in-out;
+}
+.content h3:hover::before{
+  width: 10%;
+
+}
+.content h3::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 8%;
+  bottom: -14px;
+  left: 11%;
+  background-color: #008ed6;
+  transition: .6s ease-in-out;
+}
+.content h3:hover::after{
+  width: 10%;
+}
+.cu-bd p{
+
+}
+
+.bdi i{
+  color: #008ed6;
+}
+.bdi h6{
+
+}
+/* 3rd ending beautiful-device  */
+
+/*  4th starting easy-customize  */
+
+.easy-customize{
+  background-color: #f2f2f2;
+  padding: 20vh 0;
+}
+/*  4th ending easy-customize  */
+
+/*  5th starting pricing-plan carousul  */
+
+.pricing-plan{
+  background-image: url(../images/pricing&plan.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.pricing-plan-content P{
+  color: #008ed6;
+  margin-top: 10vh;
+}
+.hg{
+  min-height: 100vh;
+}
+.pricing-plan-content{
+  color: #008ed6;
+}
+.hg  h4{
+  color: #ffffff!important;
+}
+.carousel-content p{
+  color: #ffffff;
+}
+.cr-img img{
+
+}
+.logo-content1{
+  color: #ffffff;
+}
+.logo-content1 p{
+  color: #ffffff;
+}
+/*  5th ending pricing-plan carousul  */
+
+/*  6th starting what-see */
+.what-see{
+  background-color: #15141a;
+  min-height: 20vh;
+}
+.what-see-content h4{
+  margin-top: 7vh;
+  color: #ffffff;
+  font-family: Myriad Pro;
+  font-weight: 600;
+}
+.what-see-content span{
+  font-family: Myriad Pro;
+  font-weight: 500;
+  color: #999999;
+}
+
+.what-see-bttn{
+  margin-top: 7vh;
+}
+.what-see-bttn a{
+  margin-right: 10px;
+  background-color: #3d3d42;
+  border: 1px solid #999999;
+  font-family: Myriad Pro;
+  font-weight: 500;
+}
+.what-see-bttn button{
+  background-color: #3d3d42;
+  border: 1px solid #999999;
+  font-family: Myriad Pro;
+  font-weight: 500;
+}
+/*  6th ending what-see  */
+
+
+/*7th starting pricing-card */
+.pricing-card{
+  margin: 20vh 0;
+}
+.pricing-content{
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px solid #99999966;
+  transition: 0.6s all ease-in-out;
+}
+
+.pricing-content h2 {
+  font-family: Myriad Pro;
+  font-weight: 500;
+  transition: 0.5s all ease-in-out;
+  margin-top: 15px;
+}
+.pricing-content p{
+
+}
+.cus-pc{
+  
+}
+
+.pricing-content .btn {
+  background: transparent;
+  border: transparent;
+  background: #ffffff;
+  color: #008ed6;
+  text-transform: uppercase;
+  padding: 6px 27px;
+  text-decoration: none;
+  border-radius: 0px;
+  margin-bottom: 24px;
+  transition: 0.4s all ease-in-out;
+  border: 1px solid #99999966;
+}
+
+.value {
+  background: #fff;
+  padding: 11px 0px;
+  transition: 0.6s all ease-in-out;
+  border: 1px solid #99999966;
+}
+
+.value h1 {
+  font-family: Myriad Pro;
+  font-weight: 600;
+  transition: 0.6s all ease-in-out;
+}
+
+.value h6 {
+  font-family: Myriad Pro;
+  color: #999999;;
+  transition: 0.6s all ease-in-out;
+}
+.pricing-content:hover {
+  box-shadow: -2 0px 4px 3px #008ed6;
+}
+
+.pricing-content:hover h2 {
+  color: #008ed6;
+  transform-origin: right;
+}
+
+.pricing-content:hover .value {
+  background-color: #008ed6;
+  color: #fff;
+}
+
+.pricing-content:hover .value h1 {
+  font-weight: 900;
+  font-size: 48px;
+  color: #fff;
+}
+
+.pricing-content:hover .value h6 {
+  color: #fff;
+}
+
+.pricing-content:hover .btn {
+  background-color: #008ed6;
+  color: #fff;
+}
+.pricing-card :hover span{
+  color: #008ed6;
+}
+sup {
+  vertical-align: super;
+  font-size: 20px;
+}
+/*7th ending pricing-card  */
+
+/* 8th starting contact-us */
+
+.contact-us{
+  background-color: #ededed ;
+  min-height: 95vh;
+  position: relative;
+}
+.contact-content p{
+  color: #008ed6;
+  font-size: 10px;
+  padding-top: 40px;
+
+
+}
+.contact-icon i{
+  color: #008ed6;
+}
+/*  8th Ending contact-us */
+/* ********************************************************* */
+/* form start */
+.wrapper{
+  position: absolute;
+  top: 8%;
+  left: 0px;
+  transform: translateY(-50%);
+  transform: translate(-0%,8%);
+  width: 100%;
+  padding: 0 20px;
+  display: inline-block;
+}
+.contact-form{
+  max-width: 550px;
+  margin: 0 auto;
+  background: #15141a;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.input-fields{
+display: flex;
+flex-direction: column;
+margin-right: 4%;
+background: transparent;
+}
+.input-fields , 
+.msg{
+  width: 48%;
+}
+.input-fields .input,
+.msg textarea{
+margin: 10px 0;
+background: transparent;
+border: 1px solid #3d3d42;
+padding: 10px;
+width: 100%;
+color: #444348;
+}
+.msg textarea{
+height: 212px;
+resize: none;
+}
+::-webkit-input-placeholder{
+color: #3d3d42;
+}
+::-moz-input-placeholder{
+color: #3d3d42;
+}
+::-ms-input-placeholder{
+color: #3d3d42;
+}
+.btn{
+background: #008ed6;
+text-align: center;
+padding: 1px 23px;
+cursor: pointer;
+text-transform: uppercase;
+border-radius: 0;
+}
+.cus-btn{
+  margin-left: 24%;
+}
+.cus-btn .btn:hover{
+color: #fff!important;
+border: 1px solid #3d3d42;
+}
+/* end form */
+/* ********************************************************* */
+
+/* <9th starting google-map1 */
+
+    .google-map{
+      display: flex;
+  }
+/* 9th ending google-map  */
+
+/* 10TH Starting Footer part */
+.footer_part {
+  align-items: center;
+  background: #15141a;
+  padding-top: 15px;
+} 
+.navbar{
+  list-style: none;
+}
+.footer_part ul li i{
+  color: #444348 ;
+}
+.footer_part ul li i:hover{
+  color: #008ed6 ;
+}
+.footer_bottom p{
+  margin-bottom: 0;
+  color:  #444348 ;
+}
+/*10TH Ending footer part */
